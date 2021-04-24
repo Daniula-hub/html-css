@@ -2,20 +2,31 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link rel="stylesheet" href="reset.css" /> -->
         <link rel="stylesheet" href="./index.css" />
         <title>My 5,432 website</title>
+        <!-- <style>
+            li {
+                background-color: magenta;
+                text-decoration: underline;
+            }
+            body {
+                background-color: black;
+                color: white;
+            }
+        </style> -->
     </head>
     <body>
         <!--this is a comment-->
         <header>
-            <h1>H1</h1>
-            <h2>H2</h2>
-            <h3>H3</h3>
-            <h4>H4</h4>
-            <h5>H5</h5>
-            <h6>H6</h6>
+            <h1 class="header-text" style="font-size: 100px; background-color: black; color: crimson;">Header Text that is interesting</h1>
+            <h2 class="header-text" id="second-header-line">H2</h2>
+            <h3 class="header-text">H3</h3>
+            <h4 class="header-text">H4</h4>
+            <h5 class="header-text">H5</h5>
+            <h6 class="header-text">H6</h6>
             <nav>
-                <ul>
+                <ul style="list-style: none;">
                     <li>About</li>
                     <li>Contact Us</li>
                     <li>super cool nav thingy</li>
@@ -23,24 +34,26 @@
             </nav>
         </header>
         <main>
-            <section>
-                <h2>Main section heading</h2>
-                <p>Typical website-y text</p>
-                <p>
-                    The wolf and the lion. The battle of the redgrass field. It is rare to meet a Lannister 
-                    who shares my enthusiasm for dead Lannisters. Unbowed, Unbent, Unbroken. The Dothraki do 
+            <div class="css-box">we have some content in this div</div>
+            <section class="main-text">
+                <h2 style="text-decoration: underline;">Main section heading</h2>
+                <p class="float-left">Typical website-y text</p>
+                <p class="float-right">
+                    The wolf and the lion. 
+                    <!-- The battle of the redgrass field. It is rare to meet a Lannister 
+                    who shares my enthusiasm for <span>dead Lannisters</span>. Unbowed, Unbent, Unbroken. The Dothraki do 
                     things in their own time, for their own reasons. The bear and the maiden fair. I pledge 
                     my life and honor to the Night's Watch, for this night and all the nights to come. The North 
-                    remembers. Unbowed, Unbent, Unbroken. The War of the 5 kings.
+                    remembers. Unbowed, Unbent, Unbroken. The War of the 5 kings. -->
                 </p>
             </section>
             <section>
                 <input/>
-                <input type="password"/>
-                <input type="radio"/>
-                <input type="radio"/>
-                <input type="checkbox"/>
-                <input type="date"/>
+                <input type="password">
+                <input type="radio">
+                <input type="radio">
+                <input type="checkbox">
+                <input type="date">
                 <button>click me!</button>
             </section>
         </main>
