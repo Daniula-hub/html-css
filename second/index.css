@@ -27,11 +27,10 @@ body {
 
   .circle{
     height: 200px;
-    width: 400px;
+    width: 200px;
     display: inline-block;
     background-color:lightblue;
     border-radius: 65%;
-    margin: 0 500px;
   }
 
   .container-two{
@@ -43,7 +42,7 @@ body {
   }
 
   .box{
-    width: 100em;
+    width: 100%;
     height: 20vh;
     background-color: lightgoldenrodyellow;
     box-shadow: lightgray 8px 8px 4px 0px ;
@@ -55,14 +54,13 @@ body {
     background-color: whitesmoke;
     padding: 100px;
     box-sizing: border-box ;
-    margin-top: 100px;
+    margin: 100px auto;
     -webkit-box-shadow: 3px 3px 5px 0px lightgray;
     -moz-box-shadow: 3px 3px 5px 0px lightgray;
     box-shadow: 3px 3px 5px 0pxlightgray;
   }
 
   h1{
-    width: 100%;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: navy;
