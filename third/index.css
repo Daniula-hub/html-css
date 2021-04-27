@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.row-one{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(13, 158, 163, 0.753); 
+}
+
+.row-two{
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.row-three{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(13, 158, 163, 0.753); 
+}
+
+.row-four{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(48, 190, 13, 0.753); 
+}
+
+.row-five{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(164, 223, 109, 0.753); 
+}
+
+.row-six{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(221, 218, 31, 0.753); 
+}
